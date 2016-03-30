@@ -1,0 +1,17 @@
+.head {
+	background: #3498db;
+}
+.head h1, .head h3, .head h2 {
+	color: #ffffff;
+}
+
+.profile-pic img{
+	width: 100%;
+}
+
+.quick-contact {
+	background: #c0392b;
+}
+
+.size-21 { font-size: 21px; }
+.size-45, .size-45:before { font-size: 45px; }

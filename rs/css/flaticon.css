@@ -1,0 +1,75 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../img/flaticon.eot");
+	src: url("../img/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../img/flaticon.woff") format("woff"),
+	url("../img/flaticon.ttf") format("truetype"),
+	url("../img/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}.flaticon-academic:before {
+	content: "\e000";
+}
+.flaticon-apple:before {
+	content: "\e001";
+}
+.flaticon-crowd:before {
+	content: "\e002";
+}
+.flaticon-cup29:before {
+	content: "\e003";
+}
+.flaticon-hand27:before {
+	content: "\e004";
+}
+.flaticon-java1:before {
+	content: "\e005";
+}
+.flaticon-js1:before {
+	content: "\e006";
+}
+.flaticon-lecture:before {
+	content: "\e007";
+}
+.flaticon-man379:before {
+	content: "\e008";
+}
+.flaticon-man67:before {
+	content: "\e009";
+}
+.flaticon-online33:before {
+	content: "\e00a";
+}
+.flaticon-responsive3:before {
+	content: "\e00b";
+}
+.flaticon-responsive4:before {
+	content: "\e00c";
+}
+.flaticon-slide1:before {
+	content: "\e00d";
+}
+.flaticon-student2:before {
+	content: "\e00e";
+}
+.flaticon-student43:before {
+	content: "\e00f";
+}
+.flaticon-teach:before {
+	content: "\e010";
+}
+.flaticon-woman2:before {
+	content: "\e011";
+}
+.flaticon-worker11:before {
+	content: "\e012";
+}
+.flaticon-working1:before {
+	content: "\e013";
+}
