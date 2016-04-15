@@ -1,0 +1,4 @@
+<div class="palatte_color" popover="color {{getColorStyle()}} copied to clipboard" popover-trigger="click" popover-is-open="isTooltipOpen" ng-click="openTooltip($event)">
+    <span class="color-preview" id="SPAN_1" ng-style="{'background-color': getColorStyle()}" data-clipboard-text="{{getColorStyle()}}" ng-click="selectColor($event)"></span>
+<span ng-bind="getColorStyle()" class="color-value"></span>
+</div>
