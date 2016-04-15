@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lato',sans-serif;
+}
+
+.palatte {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.palatte_color {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+.color-preview {
+    background-color: rgb(248, 248, 248);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-collapse: separate;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(255, 255, 255, 0);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgba(255, 255, 255, 0);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-style: none;
+    border-top-width: 0px;
+    bottom: auto;
+    box-shadow: rgba(0, 0, 0, 0.0235294) 0px 0px 0px 2px inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    height: 90px;
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 1;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 0px;
+    pointer-events: auto;
+    top: auto;
+    visibility: visible;
+    white-space: normal;
+    widows: 1;
+    width: 90px;
+    will-change: auto;
+    border-top: 0px none rgba(255, 255, 255, 0);
+    border-right: 0px none rgba(255, 255, 255, 0);
+    border-bottom: 0px none rgba(255, 255, 255, 0);
+    border-left: 0px none rgba(255, 255, 255, 0);
+    border-width: 0px;
+    border-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    border-radius: 50% 50% 50% 50%;
+    margin-bottom: 15px;
+}
+
+
+.color-value {
+    color: rgb(103, 103, 103);
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
