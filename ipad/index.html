@@ -5,20 +5,22 @@
 </head>
 <body>
     <h1>teatarea edit </h1>
-<textarea name="" id="" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus recusandae minima corporis molestiae expedita, est magnam! Autem delectus at provident, iste sed repellat, commodi unde perspiciatis dolorem cupiditate, voluptatibus distinctio?</textarea>
+<textarea name="" id="" cols="30" rows="10" onClick="this.setSelectionRange(0, this.value.length)">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus recusandae minima corporis molestiae expedita, est magnam! Autem delectus at provident, iste sed repellat, commodi unde perspiciatis dolorem cupiditate, voluptatibus distinctio?</textarea>
 
 
 <h1>teatarea readonly </h1>
-<textarea name="" id="" cols="30" rows="10" readonly>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus recusandae minima corporis molestiae expedita, est magnam! Autem delectus at provident, iste sed repellat, commodi unde perspiciatis dolorem cupiditate, voluptatibus distinctio?</textarea>
+<textarea name="" id="" cols="30" rows="10" readonly onClick="this.setSelectionRange(0, this.value.length)">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus recusandae minima corporis molestiae expedita, est magnam! Autem delectus at provident, iste sed repellat, commodi unde perspiciatis dolorem cupiditate, voluptatibus distinctio?</textarea>
+
+<textarea name="" id="" cols="10" rows="5" readonly onClick="this.setSelectionRange(0, this.value.length)">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus recusandae minima corporis molestiae expedita, est magnam! Autem delectus at provident, iste sed repellat, commodi unde perspiciatis dolorem cupiditate, voluptatibus distinctio?</textarea>
 
 
 <h1>teatarea disabled </h1>
 <textarea name="" id="" cols="30" rows="10" disabled>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus recusandae minima corporis molestiae expedita, est magnam! Autem delectus at provident, iste sed repellat, commodi unde perspiciatis dolorem cupiditate, voluptatibus distinctio?</textarea>
 <hr />
 <h1>Input edit</h1>
-<input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicin"/>
+<input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicin" onClick="this.setSelectionRange(0, this.value.length)"/>
 <h1>Input readonly</h1>
-<input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicin" readonly/>
+<input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicin" readonly onClick="this.setSelectionRange(0, this.value.length)"/>
 <h1>Input disabled</h1>
 <input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicin" disabled/>
 </body>
